@@ -1,0 +1,52 @@
+.Slideshow__img {
+    width: 88%;
+    height: 415px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.Slideshow__button {
+    background-color: transparent;
+    position: absolute;
+    z-index: 999;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+}
+
+.Slideshow__button--left {
+    margin-left: 90px;
+    margin-top: 150px;
+    opacity: 50%;
+    border:none;
+}
+
+.Slideshow__button--right {
+    z-index: 10;
+    margin-left: -160px;
+    margin-top: 150px;
+    opacity: 50%;
+    border:none;
+}
+
+@media screen and (max-width: 880px) {
+    .Slideshow__img {
+        border-radius: 10px;
+        margin-left: 22.5px;
+        margin-right: 22.5px;
+    }
+
+    .Slideshow__button {
+        font-size: 40px;
+        margin-top: 190px;
+    }
+
+    .Slideshow__button--left {
+        margin-left: 25px;
+    }
+
+    .Slideshow__button--right {
+        margin-left: -50px;
+    }
+}

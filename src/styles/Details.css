@@ -1,0 +1,171 @@
+.star {
+    display: flex;
+    flex-wrap: nowrap;
+    align-self: flex-end;
+    padding-bottom: 5px;
+    margin-right: 90px;
+}
+
+.star--yes {
+    fill: #ff6060;
+    margin-left: 10px
+}
+
+.star--no {
+    fill: #dddddd;
+    margin-left: 10px;
+}
+
+.star--yes, .star--no >svg {
+    width: -8%;
+}
+
+.picture {
+    border-radius: 100px;
+    width: 64px;
+    height: 64px;
+    margin-left: 20px;
+    margin-right: 90px;
+    margin-bottom: 20px;
+    margin-top:20px;
+ }
+
+ .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-bottom: 100px;
+    align-items: flex-start;
+ }
+
+ .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: stretch;
+    gap: 76px; 
+ }
+
+ .flex .Dropdown {
+    width: 50%;
+  }
+
+  .flexRowB {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .Card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .Card__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left : 80px;
+    color:#ff6060;
+  }
+
+  .Card__title > p {
+    margin-top: 5px;
+    margin-left: 0px;
+    font-size: 18px;
+  }
+
+  .Card__title > h1 {
+    font-size: 36px;
+  }
+
+  .flexRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .wrap {
+    width: 100px;
+    font-size: 18px;
+    text-align: end;
+    align-self: center;
+    line-height: 26px;
+    font-weight: 500;
+    color:#FF6060
+  }
+
+  @media screen and (max-width: 880px) {
+    svg {
+      width:15px;
+      height:15px;
+    }
+
+    .star {
+      padding-bottom: 18px;
+      margin-right: 0px;
+      padding-left: 10px;
+      padding-bottom: 25px;
+      padding-right: 50px;
+    }
+
+    .grid {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+    .flex{
+      flex-direction: column;
+      gap: 0;
+    }
+    .flex .Dropdown {
+      width: 100%;
+      flex-direction: column;
+    }
+
+    .flexRowB {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+    }
+
+    .flexRow {
+      margin-left: 30px;
+    }
+
+    .Card {
+      flex-direction: column;
+    }
+
+    .Card__title {
+      flex-direction: column;
+      margin-left: 22.5px;
+    }
+
+    .Card__title > p{
+      font-size: 14px;
+    }
+  
+
+.Card__title > h1 {
+  font-size: 18px;
+}
+
+.tag {
+  font-size : 10px;
+  min-width:84px;
+  height:18px;
+}
+
+.wrap {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.picture {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+}
