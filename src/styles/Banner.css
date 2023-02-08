@@ -1,8 +1,8 @@
 .banner {
     height: 223px;
     line-height: 223px;
-    width: 80%;
-    border-radius: 10px;
+    width: 1240px;
+    border-radius: 20px;
     background-color: #000000;
     background-image: url('../assets/Banner.png');
     background-position: center;

@@ -22,11 +22,6 @@ function Gallery() {
       })
   }, [])
 
-  if (error) {
-    return <div>Erreur : {error.message}</div>
-  } else if (!isLoaded) {
-    return <div>Chargement...</div>
-  } else {
     return (
       <div>
         <div className="gallery">
@@ -42,6 +37,5 @@ function Gallery() {
       </div>
     )
   }
-}
 
 export default Gallery

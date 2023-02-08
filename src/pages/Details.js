@@ -35,16 +35,6 @@ const Details = () => {
             })
         }, [])
 
-    if (error) {
-        console.log('error')
-        return <div> Erreur : {error.message} </div>
-    } else if (!isLoaded) {
-        console.log("isLoaded")
-        return <div> Chargement... </div>
-    } else if (datas) {
-        console.log ("DATAS", datas)
-    }
-
     const temp = datas.filter((data) => data.id === id)
     if (temp.length === 0)
       return (
@@ -98,7 +88,7 @@ const Details = () => {
                   <Rating />
                 </div>
               </div>
-              <div className="grid">
+              <div className="flex">
                 <Collapse
                   key={data.id + 2}
                   datas={data.description}
