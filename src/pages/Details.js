@@ -1,6 +1,5 @@
 import React from 'react'
 import Slideshow from '../components/Slideshow'
-import Collapse from '../components/Collapse'
 import Error from '../components/Error'
 import {useState, useEffect} from 'react'
 import {useParams} from 'react-router-dom'

@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import background from '../assets/BannerAbout.png'
 import Collapse from '../components/Collapse'
+// import about_mobile from '../assets/about_mobile.png'
 
 const speech = [
     {
