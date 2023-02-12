@@ -8,6 +8,7 @@ import Tag from '../components/Tag'
 import Star from '../components/Star'
 import '../styles/Details.css'
 import Header from '../components/Header'
+import CollapseSlideshow from '../components/CollapseSlideshow'
 
 
 const Details = () => {
@@ -89,12 +90,12 @@ const Details = () => {
                 </div>
               </div>
               <div className="flex">
-                <Collapse
+                <CollapseSlideshow
                   key={data.id + 2}
                   datas={data.description}
                   title="Description"
                 />
-                <Collapse
+                <CollapseSlideshow
                   key={data.id + 3}
                   datas={data.equipments}
                   title="Equipements"

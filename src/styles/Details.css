@@ -42,7 +42,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 80px; 
+    gap: 80px;
  }
 
  .flex .Dropdown {
@@ -53,6 +53,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-right: 45px;
   }
 
   .Card {
@@ -65,7 +66,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left : 80px;
+    padding-left : 120px;
     color:#ff6060;
   }
 
@@ -129,7 +130,7 @@
     }
 
     .flexRow {
-      margin-left: 30px;
+      padding-left: 15px;
     }
 
     .Card {
@@ -138,7 +139,7 @@
 
     .Card__title {
       flex-direction: column;
-      margin-left: 22.5px;
+      padding-left: 10px;
     }
 
     .Card__title > p{
