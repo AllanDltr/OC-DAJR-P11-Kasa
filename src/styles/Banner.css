@@ -1,7 +1,7 @@
 .banner {
     height: 223px;
     line-height: 223px;
-    width: 1240px;
+    width: 85%;
     border-radius: 20px;
     background-color: #000000;
     background-image: url('../assets/Banner.png');
@@ -29,13 +29,16 @@
        text-align: left;
        border-radius: 10px;
        background-size: cover;
+       width: 92vw;
     }
+
     .bannerAbout {
        height: 223px;
        line-height: 223px;
        border-radius: 10px;
        width: 100vw;
     }
+
     .banner >h1 {
        padding-left: 10px;
        font-size: 24px;
