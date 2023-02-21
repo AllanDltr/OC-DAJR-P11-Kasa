@@ -1,8 +1,9 @@
 import React from 'react'
-import logos from '../assets/logo.png'
+import logos from '../assets/Logo.svg'
 import '../styles/Footer.css'
-const Footer = () => {
-  const logo = <img src={logos} alt="Kasa Logo" />
+
+export const Footer = () => {
+  const logo = <img className="footer__img" src={logos} alt="Kasa Logo" />
   return (
     <div className="footer">
       {logo}
@@ -10,5 +11,3 @@ const Footer = () => {
     </div>
   )
 }
-
-export default Footer

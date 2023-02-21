@@ -1,24 +1,21 @@
 import React from 'react'
 import Slideshow from '../components/Slideshow'
 import Error from '../components/Error'
+import {Footer} from '../components/Footer'
 import {useState, useEffect} from 'react'
 import {useParams} from 'react-router-dom'
 import Tag from '../components/Tag'
 import Star from '../components/Star'
 import '../styles/Details.css'
 import Header from '../components/Header'
-import CollapseSlideshow from '../components/CollapseSlideshow'
+import { CollapseSlideshow } from '../components/CollapseSlideshow'
 
 
 const Details = () => {
-    // const [searchParams] = useSearchParams()
     const {id} = useParams()
-    // const id = searchParams.get('id')
     let data = []
 
     const [datas, setDatas] = useState([])
-    const [isLoaded, setIsLoaded] = useState(false)
-    const [error, setError] = useState(null)
 
     useEffect(() => {
         fetch('../../logements.json')
@@ -27,11 +24,8 @@ const Details = () => {
             })
             .then(function (datas) {
                 setDatas(datas)
-                setIsLoaded(true)
             })
             .catch(function (error) {
-                setError(error)
-                setIsLoaded(true)
             })
         }, [])
 
@@ -43,10 +37,8 @@ const Details = () => {
         </div>
       )
 
-    datas.map((pictures) => {
-      if (pictures.id === id) {
-        data = pictures
-      }
+    data = datas.find((pictures) => {
+      return pictures.id === id
     })
     let Rating = () => {
       return (
@@ -100,6 +92,7 @@ const Details = () => {
                   title="Equipements"
                 />
               </div>
+              <Footer> </Footer>
             </main>
           )
         }
