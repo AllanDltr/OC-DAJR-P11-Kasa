@@ -7,8 +7,9 @@ import {useParams} from 'react-router-dom'
 import Tag from '../components/Tag'
 import Star from '../components/Star'
 import '../styles/Details.css'
+import '../styles/Collapse.css'
 import Header from '../components/Header'
-import { CollapseSlideshow } from '../components/CollapseSlideshow'
+import { Collapse } from '../components/Collapse'
 
 
 const Details = () => {
@@ -81,12 +82,12 @@ const Details = () => {
                 </div>
               </div>
               <div className="flex">
-                <CollapseSlideshow
+                <Collapse
                   key={data.id + 2}
                   datas={data.description}
                   title="Description"
                 />
-                <CollapseSlideshow
+                <Collapse
                   key={data.id + 3}
                   datas={data.equipments}
                   title="Equipements"
