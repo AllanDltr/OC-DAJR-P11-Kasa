@@ -27,6 +27,7 @@ const Details = () => {
                 setDatas(datas)
             })
             .catch(function (error) {
+                console.log(error)
             })
         }, [])
 

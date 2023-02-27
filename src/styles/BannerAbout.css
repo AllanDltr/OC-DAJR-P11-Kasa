@@ -7,14 +7,14 @@
     margin-bottom: 32px;
     padding-left: 1%;
     padding-right: 1%;
-    margin-top:32px;
+    margin-top: 32px;
 }
 
 .bannerAbout__img {
     border-radius: 20px;
     /* width: 1240px; */
     width: 88%;
-    margin-left:20px;
+    margin-left: 20px;
     height: 223px;
     object-fit: cover;
     background-position: center;
@@ -31,7 +31,7 @@
 
     .bannerAbout__img {
         width: 90%;
-        margin-left:0px;
+        margin-left: 0px;
         /* background: url(../assets/about_mobile.svg) */
     }
 }

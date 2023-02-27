@@ -26,22 +26,22 @@
 .Slideshow__button--left {
     margin-left: 90px;
     margin-top: 150px;
-    border:none;
-    opacity:50%;
+    border: none;
+    opacity: 50%;
 }
 
 .Slideshow__button--right {
     z-index: 10;
     margin-left: 1650px;
     margin-top: -268px;
-    border:none;
+    border: none;
     opacity: 50%;
 }
 
 @media screen and (max-width: 880px) {
     .Slideshow__img {
-        width:335px;
-        height:255px;
+        width: 335px;
+        height: 255px;
         border-radius: 10px;
         padding-left: 5px;
         padding-right: 0px;
@@ -54,11 +54,11 @@
 
     .Slideshow__button--left {
         margin-left: 5px;
-        margin-top:100px;
+        margin-top: 100px;
     }
 
     .Slideshow__button--right {
-        margin-top:-159px;
+        margin-top: -159px;
         margin-left: 315px;
     }
 }

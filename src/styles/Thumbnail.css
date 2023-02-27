@@ -1,8 +1,9 @@
 .thumbnail {
-   width: 340px;
-   height: 340px;
-   padding: 10px;
+    width: 340px;
+    height: 340px;
+    padding: 10px;
 }
+
 .thumb__img {
     position: relative;
     height: 340px;
@@ -12,16 +13,18 @@
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
 .thumb__title {
     color: white;
-      position: absolute;
-      z-index: 2;
-      bottom: 5%;
-      left: 5%;
-      width: 70%;
-      font-size: 18px;
-      font-weight: 500;
+    position: absolute;
+    z-index: 2;
+    bottom: 5%;
+    left: 5%;
+    width: 70%;
+    font-size: 18px;
+    font-weight: 500;
 }
+
 .thumb__sub {
     position: relative;
     max-height: 300px;
@@ -30,7 +33,7 @@
     overflow: hidden;
 }
 
-@media screen and (max-width: 880px){
+@media screen and (max-width: 880px) {
     .thumbnail {
         padding: 0;
     }

@@ -4,8 +4,6 @@ import Thumbnail from './Thumbnail'
 
 function Gallery() {
   const [data, setData] = useState([])
-  // const [isLoaded, setIsLoaded] = useState(false)
-  // const [error, setError] = useState(null)
 
   useEffect(() => {
     fetch('logements.json')
@@ -14,11 +12,9 @@ function Gallery() {
       })
       .then(function (data) {
         setData(data)
-        // setIsLoaded(true)
       })
       .catch(function (err) {
-        // setError(err)
-        // setIsLoaded(true)
+        console.log(err)
       })
   }, [])
 

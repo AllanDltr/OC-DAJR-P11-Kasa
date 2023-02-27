@@ -12,13 +12,13 @@
    font-size: 14px;
    margin: 12px 10px 12px 0;
    white-space: nowrap;
- }
+}
 
- .tags {
-    display: flex;
-    flex-wrap: wrap;
- }
+.tags {
+   display: flex;
+   flex-wrap: wrap;
+}
 
- ul {
-    margin: 0;
- }
+ul {
+   margin: 0;
+}
