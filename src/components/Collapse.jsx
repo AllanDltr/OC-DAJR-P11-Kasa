@@ -9,7 +9,7 @@ export function Collapse({datas, title}) {
 
     return isOpen ? (
         <div className="Dropdown">
-            <button className="Dropdown__label" onClick={() => setIsOpen(false)} > 
+            <button className="Dropdown__label" onClick={() => setIsOpen(false)} >
             {title} <FontAwesomeIcon icon={faChevronUp} />
             </button>
                     <ul className="Dropdown__list">
@@ -20,7 +20,7 @@ export function Collapse({datas, title}) {
         </div>
     ) : (
         <div className="Dropdown">
-            <button className="Dropdown__label" onClick={() => setIsOpen(true)} > 
+            <button className="Dropdown__label" onClick={() => setIsOpen(true)} >
             {title} <FontAwesomeIcon icon={faChevronDown} />
             </button>
         </div>

@@ -48,13 +48,17 @@ const Details = () => {
           {Array.from(Array(5), (e, index) => {
             if (index < parseInt(data.rating)) {
               return (
-                <div key={`${data.id}-${index}`} className="star--yes">
+                <div
+                key={`${data.id}-${index}`}
+                className="star--yes">
                   <Star />
                 </div>
               )
             } else {
               return (
-                <div key={`${data.id}-${index}`} className="star--no">
+                <div
+                key={`${data.id}-${index}`}
+                className="star--no">
                   <Star />
                 </div>
               )
