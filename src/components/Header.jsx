@@ -13,11 +13,11 @@ return (
         </NavLink>
 
         <NavLink className="header__link-home" to="/Home">
-            <h6> Accueil </h6>
+            <nav> Accueil </nav>
         </NavLink>
 
         <NavLink className="header__link-about" to="/About">
-            <h6> A propos </h6>
+            <nav> A propos </nav>
         </NavLink>
         </nav>
 )

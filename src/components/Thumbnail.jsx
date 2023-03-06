@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 
 function Thumbnail({ title, cover, id }) {
   return (
-    <div className="Thumbnail">
+    <div className="thumbnail">
       <Link to={`/details/${id}`}>
         <div className="thumb__sub">
           <h3 className="thumb__title">{title}</h3>

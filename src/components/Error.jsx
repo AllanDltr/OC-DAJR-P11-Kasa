@@ -7,11 +7,11 @@ const Error = () => {
             <div className="error__title"> 404 </div>
             <h1 className='error__subtitle'>
                 Oups! La page que vous demandez n'existe pas
-                </h1>
-                <a className="error__returnLink" href="/">
-                Retourner sur la page d'accueil
-                </a>
-                </div>
+            </h1>
+            <a className="error__returnLink" href="/">
+            Retourner sur la page d'accueil
+            </a>
+        </div>
     )
 }
 

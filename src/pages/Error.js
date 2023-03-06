@@ -1,7 +1,7 @@
 import React from 'react'
 import Error from '../components/Error'
 import Header from '../components/Header'
-import {Footer} from '../components/Footer'
+import Footer from '../components/Footer'
 
 const Error404 = () => {
     return (

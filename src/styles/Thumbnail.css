@@ -1,17 +1,18 @@
 .thumbnail {
-    width: 340px;
+    display: flex;
+    width: 32%;
     height: 340px;
     padding: 10px;
+    justify-content: center;
 }
 
 .thumb__img {
     position: relative;
-    height: 340px;
+    height: 300px;
     width: 340px;
     z-index: 1;
     object-fit: cover;
     border-radius: 10px;
-    margin-bottom: 10px;
 }
 
 .thumb__title {

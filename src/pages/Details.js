@@ -1,7 +1,7 @@
 import React from 'react'
 import Slideshow from '../components/Slideshow'
 import Error from '../components/Error'
-import {Footer} from '../components/Footer'
+import Footer from '../components/Footer'
 import {useState, useEffect} from 'react'
 import {useParams} from 'react-router-dom'
 import Tag from '../components/Tag'

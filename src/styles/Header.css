@@ -3,13 +3,12 @@
     justify-content: space-between;
     padding-top: 50px;
     padding-left: 5.6%;
-    padding-right: 50px;
     align-items: center;
     height: 68px;
     width: 95%;
 }
 
-.header h6 {
+.header nav {
     color: #ff6060;
     font-size: 24px;
     margin-left: 20px;
@@ -28,6 +27,11 @@
 
 .header__link-home:hover,
 .header__link-about:hover {
+    text-decoration: underline #ff6060;
+}
+
+.header__link-home:active,
+.header__link-about:active {
     text-decoration: underline #ff6060;
 }
 
