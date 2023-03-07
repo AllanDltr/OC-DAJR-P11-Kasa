@@ -24,12 +24,11 @@
 
    .banner {
       height: 151px;
-      display: table-cell;
       vertical-align: middle;
       text-align: left;
       border-radius: 10px;
       background-size: cover;
-      width: 92vw;
+      width: 98vw;
    }
 
    .bannerAbout {
@@ -40,6 +39,7 @@
    }
 
    .banner>h1 {
+      padding-top:50px;
       padding-left: 10px;
       font-size: 24px;
       line-height: 30px;

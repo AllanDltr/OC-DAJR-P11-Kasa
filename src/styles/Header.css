@@ -2,17 +2,15 @@
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
-    padding-left: 5.6%;
+    /* padding-left: 5.6%; */
     align-items: center;
     height: 68px;
-    width: 95%;
+    width: 100%;
 }
 
 .header nav {
     color: #ff6060;
     font-size: 24px;
-    margin-left: 20px;
-    padding-top: 25px;
 }
 
 .header__link-home {
@@ -21,7 +19,7 @@
 }
 
 .header__link-about {
-    width: 355px;
+    width: 350px;
     white-space: nowrap;
 }
 
@@ -30,19 +28,17 @@
     text-decoration: underline #ff6060;
 }
 
-.header__link-home:active,
-.header__link-about:active {
-    text-decoration: underline #ff6060;
-}
-
 a {
     text-decoration: none;
 }
 
+.header__link-home.active,
+.header__link-about.active {
+    text-decoration: underline #ff6060;
+}
+
 .header__logo {
-    flex-grow: 2;
-    margin-bottom: 0px;
-    padding-left: 2%;
+    padding-left: 7.5%;
     width: 100%;
 }
 
@@ -74,7 +70,7 @@ a {
         white-space: nowrap;
     }
 
-    .header h6 {
+    .header nav {
         font-size: 12px;
         text-transform: uppercase;
         padding-top: 0;

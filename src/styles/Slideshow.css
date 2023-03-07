@@ -27,7 +27,7 @@
     margin-left: 90px;
     margin-top: 150px;
     border: none;
-    opacity: 50%;
+    opacity: 75%;
 }
 
 .Slideshow__button--right {
@@ -35,10 +35,29 @@
     margin-left: 1650px;
     margin-top: -268px;
     border: none;
-    opacity: 50%;
+    opacity: 75%;
+}
+
+.Slideshow__number {
+    position: absolute;
+    z-index: 999;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    left:50%;
+    top:55%;
+    font-weight: 500;
+    text-shadow: black 1px 1px;
 }
 
 @media screen and (max-width: 880px) {
+
+    .Slideshow {
+        margin-top:10px;
+        margin-left: 5px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
     .Slideshow__img {
         width: 335px;
         height: 255px;
@@ -58,7 +77,13 @@
     }
 
     .Slideshow__button--right {
-        margin-top: -159px;
-        margin-left: 315px;
+        margin-top: 100px;
+        margin-left: -25px;
+        color:black;
+        opacity: 100%;
+    }
+
+    .Slideshow__number {
+        display: none;
     }
 }

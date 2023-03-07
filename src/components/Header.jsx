@@ -12,7 +12,7 @@ return (
             {logo}
         </NavLink>
 
-        <NavLink className="header__link-home" to="/Home">
+        <NavLink className="header__link-home" to="/">
             <nav> Accueil </nav>
         </NavLink>
 
