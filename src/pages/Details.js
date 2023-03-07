@@ -1,6 +1,5 @@
 import React from 'react'
 import Slideshow from '../components/Slideshow'
-import Error from '../components/Error'
 import Footer from '../components/Footer'
 import {useState, useEffect} from 'react'
 import {useParams} from 'react-router-dom'
@@ -10,12 +9,12 @@ import '../styles/Details.css'
 import '../styles/Collapse.css'
 import Header from '../components/Header'
 import { Collapse } from '../components/Collapse'
+import Error404 from './Error404'
 
 
 const Details = () => {
     const {id} = useParams()
     let data = []
-
     const [datas, setDatas] = useState([])
 
     useEffect(() => {
@@ -32,16 +31,18 @@ const Details = () => {
         }, [])
 
     const temp = datas.filter((data) => data.id === id)
-    if (temp.length === 0)
+    if (temp.length === 0) {
       return (
         <div>
-          <Error />
+          <Error404/>
         </div>
       )
+    }
 
     data = datas.find((pictures) => {
       return pictures.id === id
     })
+
     let Rating = () => {
       return (
         <ul className="star">
@@ -67,6 +68,8 @@ const Details = () => {
         </ul>
       )
     }
+
+
 
         return (
             <main>
