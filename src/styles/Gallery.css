@@ -15,7 +15,7 @@
   .gallery {
     padding: 0;
     background-color: #ffffff;
-    row-gap: 10px;
+    row-gap: 20px;
+    width: 335px;
   }
-
 }

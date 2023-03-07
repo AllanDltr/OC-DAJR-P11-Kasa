@@ -11,6 +11,7 @@
    margin-right: auto;
    margin-bottom: 45px;
    text-align: center;
+   margin-top: 32px;
 }
 
 .banner>h1 {
@@ -28,7 +29,7 @@
       text-align: left;
       border-radius: 10px;
       background-size: cover;
-      width: 98vw;
+      width: 91.5vw;
    }
 
    .bannerAbout {
