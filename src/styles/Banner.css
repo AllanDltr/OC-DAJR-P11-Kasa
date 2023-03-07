@@ -30,6 +30,8 @@
       border-radius: 10px;
       background-size: cover;
       width: 91.5vw;
+      margin-top: 0px;
+      margin-bottom: 22px;
    }
 
    .bannerAbout {

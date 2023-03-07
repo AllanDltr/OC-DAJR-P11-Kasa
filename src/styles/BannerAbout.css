@@ -12,7 +12,6 @@
 
 .bannerAbout__img {
     border-radius: 20px;
-    /* width: 1240px; */
     width: 88%;
     margin-left: 20px;
     height: 223px;
@@ -23,7 +22,6 @@
 @media screen and (max-width: 880px) {
 
     .bannerAbout {
-        /* background: url(../assets/about_mobile.svg); */
         z-index: -1;
         margin-top: 0px;
         margin-bottom: 10px;
@@ -32,6 +30,5 @@
     .bannerAbout__img {
         width: 90%;
         margin-left: 0px;
-        /* background: url(../assets/about_mobile.svg) */
     }
 }
