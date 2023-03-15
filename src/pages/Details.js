@@ -50,7 +50,7 @@ const Details = () => {
   };
 
   return (
-      <main>
+      <>
         <Slideshow key={logementId} pictures={pictures} />
         <div className="Card">
           <div className="Card__title">
@@ -70,7 +70,7 @@ const Details = () => {
           <Collapse key={id + 2} datas={description} title="Description" />
           <Collapse key={id + 3} datas={equipments} title="Equipements" />
         </div>
-      </main>
+      </>
   );
 };
 

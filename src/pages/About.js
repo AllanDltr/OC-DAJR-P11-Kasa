@@ -27,7 +27,7 @@ const speech = [
 
 function  About() {
     return (
-            <main>
+            <>
                 <div className="bannerAbout">
                   <img className='bannerAbout__img' src={background} alt="banner about" />
                 </div>
@@ -38,7 +38,7 @@ function  About() {
                   title={item.title}
                   />
                 ))}
-            </main>
+            </>
     )
 }
 

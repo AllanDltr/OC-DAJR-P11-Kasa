@@ -5,10 +5,10 @@ import Gallery from '../components/Gallery'
 
 const Home = () => {
     return (
-            <main>
+            <>
                 <Banner />
                 <Gallery />
-            </main>
+            </>
     )
 }
 
