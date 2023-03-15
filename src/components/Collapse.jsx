@@ -28,6 +28,6 @@ export function Collapse({datas, title}) {
 }
 
 Collapse.propTypes = {
-    datas: PropTypes.oneOfType([PropTypes.string, PropTypes.array]).isRequired,
+    // datas: PropTypes.oneOfType([PropTypes.string, PropTypes.array]).isRequired,
     title: PropTypes.string.isRequired,
   }

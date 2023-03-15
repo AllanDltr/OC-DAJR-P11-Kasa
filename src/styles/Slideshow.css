@@ -56,6 +56,7 @@
         margin-left: 5px;
         padding-left: 2%;
         padding-right: 2%;
+        width: 50%;
     }
 
     .Slideshow__img {
@@ -77,9 +78,8 @@
     }
 
     .Slideshow__button--right {
-        margin-top: 100px;
-        margin-left: -25px;
-        color:black;
+        margin-top: -160px;
+        margin-left: 315px;
         opacity: 100%;
     }
 

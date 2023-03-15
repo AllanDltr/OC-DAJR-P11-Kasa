@@ -17,7 +17,6 @@ function Slideshow({pictures}) {
         current === pictures.length - 1 ? setCurrent(0) : setCurrent(current + 1)
     }
 
-
     return (
         <div className="Slideshow">
             {length > 1 ? (

@@ -1,22 +1,8 @@
 import '../styles/Gallery.css'
-import { useState, useEffect } from 'react'
 import Thumbnail from './Thumbnail'
+import {data} from '../datas/logements.js'
 
 function Gallery() {
-  const [data, setData] = useState([])
-
-  useEffect(() => {
-    fetch('logements.json')
-      .then(function (res) {
-        return res.json()
-      })
-      .then(function (data) {
-        setData(data)
-      })
-      .catch(function (err) {
-        console.log(err)
-      })
-  }, [])
 
     return (
       <div>

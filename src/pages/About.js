@@ -1,11 +1,8 @@
 import React from 'react'
-import Header from '../components/Header'
 import background from '../assets/BannerAbout.png'
 import { Collapse } from '../components/Collapse'
 import '../styles/BannerAbout.css'
 import '../styles/Collapse.css'
-import  Footer from '../components/Footer'
-// import about_mobile from '../assets/about_mobile.png'
 
 const speech = [
     {
@@ -31,7 +28,6 @@ const speech = [
 function  About() {
     return (
             <main>
-                <Header> </Header>
                 <div className="bannerAbout">
                   <img className='bannerAbout__img' src={background} alt="banner about" />
                 </div>
@@ -42,7 +38,6 @@ function  About() {
                   title={item.title}
                   />
                 ))}
-                <Footer> </Footer>
             </main>
     )
 }
