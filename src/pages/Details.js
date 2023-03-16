@@ -1,6 +1,6 @@
 import React from "react";
 import Slideshow from "../components/Slideshow";
-import { Navigate, useParams } from "react-router-dom";
+import {Navigate, useParams} from "react-router-dom";
 import Tag from "../components/Tag";
 import Star from "../components/Star";
 import "../styles/Details.css";

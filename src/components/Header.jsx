@@ -19,7 +19,7 @@ return (
         <NavLink className="header__link-about" to="/About">
             <nav> A propos </nav>
         </NavLink>
-        </nav>
+    </nav>
 )
 
 }

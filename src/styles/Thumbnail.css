@@ -1,6 +1,7 @@
 .thumbnail {
+    box-sizing: border-box;
     display: flex;
-    width: 32%;
+    width: 31%;
     height: 340px;
     padding: 10px;
     justify-content: center;
