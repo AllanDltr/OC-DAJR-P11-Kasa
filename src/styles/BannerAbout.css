@@ -22,6 +22,9 @@
 @media screen and (max-width: 880px) {
 
     .bannerAbout {
+        height: 223px;
+        line-height: 223px;
+        border-radius: 10px;
         z-index: -1;
         margin-top: 0px;
         margin-bottom: 10px;

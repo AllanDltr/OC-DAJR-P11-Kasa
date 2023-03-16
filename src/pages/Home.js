@@ -5,7 +5,9 @@ import Gallery from '../components/Gallery'
 const Home = () => {
     return (
             <>
-                <Banner />
+                <Banner>
+                    <h1> Chez vous, partout et ailleurs </h1>
+                </Banner>
                 <Gallery />
             </>
     )
