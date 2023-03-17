@@ -1,5 +1,5 @@
 import React from 'react'
-import background from '../assets/BannerAbout.png'
+import Banner from '../components/Banner'
 import {Collapse} from '../components/Collapse'
 import '../styles/BannerAbout.css'
 import '../styles/Collapse.css'
@@ -28,9 +28,7 @@ const speech = [
 function  About() {
     return (
             <>
-                <div className="bannerAbout">
-                  <img className='bannerAbout__img' src={background} alt="banner about" />
-                </div>
+                <Banner isAbout/>
                 {speech.map((item, index) => (
                   <Collapse
                   key={`${item.title}-${index}`}
